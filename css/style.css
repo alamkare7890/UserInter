@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*======contact__page========*/
+.contact_us{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  padding: 70px 0;
+  height: 100vh;
+  
+}
+.login_section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_section .contact_area h2{
+  font-size: 28px;
+}
+.login_section  .contact_area input[type=submit]{
+  margin: 0 auto;
+  padding: 8px 20px !important;
+}
+.sing_area{
+  width: 50%;
+  margin: 0 auto;
+}
+.contact_area{   
+  background-color: #584acc2b;
+  border-radius: 15px;
+  padding: 25px;
+  width: 100%;
+}
+.login_section .contact_area{
+
+  padding: 35px;
+}
+.contact_us .contact_area input, .contact_us .contact_area textarea{
+  width: 100%;
+  display: block;
+  border: 1px solid #dbdbdb;
+  background: transparent;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #dbdbdb;
+}
+.contact_us .contact_area textarea{
+  height: 75px;
+}
+.contact_us .contact_area input:focus, .contact_us .contact_area textarea:focus{
+  box-shadow: none;
+  filter: drop-shadow(0 0 5px #fff);
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact_us .contact_area label{
+  color: #dbdbdb;
+  font-weight: 400;
+  margin: 0;
+  padding: 7px 0;
+  text-shadow: 0  0 12px #fff;
+}
+.contact_us .contact_area input[type=submit]{
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: transparent;
+  width: auto !important;
+  padding: 12px 25px;
+  font-size: 17px;
+  letter-spacing: 0.6px;
+  text-shadow: 0  0 12px #fff;
+  -webkit-text-stroke: 1px #dbdbdb;
+  transition: all 0.4s;
+
+}
+.contact_us .contact_area input[type=submit]:hover{
+  box-shadow: inset 0 0 0 10px #fff;
+
+}
+.contact_area h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: transparent;
+  line-height: 40px;
+  -webkit-text-stroke: 1px  #fff;
+  text-shadow: 0  0 12px #fff;
+}
+span.err{
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 5px 0;
+
+}
+@media only screen and (max-width: 1200px){
+  .sing_area{
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 991px){
+  .sing_area{
+    width: 50%;
+  }
+}
+@media only screen and (max-width:768px){
+  .sing_area{
+    width: 75%;
+  }
+}
+@media only screen and (max-width:576px){
+  .sing_area{
+    width: 95%;
+
+  }
+}
